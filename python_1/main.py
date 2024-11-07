@@ -1,13 +1,15 @@
 import random
-
+# It orients the user, gives the rules
 def guessing_game():
     print("Welcome to the Guessing Game!")
     print("I'm thinking of a number between 1 and 100.")
-
-    number_to_guess = random.randint(1, 100)
+ 
+    # Here is the random number generator
+    number_to_guess = random.randint(1, 100)   
     attempts = 0
     guessed = False
 
+    # This is to check if the numbers are in range or not. It makes sure to add attempts every time you guess.
     while not guessed:
         try:
             user_guess = int(input("Take a guess: "))

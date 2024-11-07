@@ -5,4 +5,4 @@ endNumber = 60
 while currentNumber < endNumber:
     print(currentNumber, "mississipi")
     currentNumber = currentNumber + 1
-    
+    # Forever loop of counting.
